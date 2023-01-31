@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: url(paisaje.webp) #000;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+
+}
+.wrap{
+    width: 90%;
+    max-width: 1000px;
+
+}
+.widget{
+    width: 40%;
+    margin: 2em;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+.fecha{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+.reloj{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+
+}
+.reloj .caja_segundos{
+    display: inline-block;
+}
+.reloj .ampm,
+.reloj .segundos{
+    display: inline-block;
+    font-size: 1em;
+}
